@@ -5,17 +5,15 @@ Welcome to the Electric Vehicle Recharge Bunk project! This innovative web-based
 Frontend: HTML, CSS, JavaScript<br>
 Backend: Firebase Realtime Database
 # Screenshots
-Home Page
+## Home Page
+![Home Page](https://github.com/manisha-1112/Electric_Vehicle_Recharge_Bunk/blob/main/homepage.png?raw=true)
 
-![image alt]([https://github.com/manisha-1112/Electric_Vehicle_Recharge_Bunk/blob/main/homepage.png?raw=true](https://github.com/manisha-1112/EV-Recharge-Bunk/blob/main/homepage.png?raw=true))
+## Admin Dashboard
+![Admin Dashboard](https://github.com/manisha-1112/Electric_Vehicle_Recharge_Bunk/blob/main/admin_dashboard.png?raw=true)
 
-Admin Dashboard
+## User Dashboard
+![User Dashboard](https://github.com/manisha-1112/Electric_Vehicle_Recharge_Bunk/blob/main/user_dashboard.png?raw=true)
 
-![image alt](https://github.com/manisha-1112/Electric_Vehicle_Recharge_Bunk/blob/main/admin_dashboard.png?raw=true)
-
-User Dashboard
-
-![image alt](https://github.com/manisha-1112/Electric_Vehicle_Recharge_Bunk/blob/main/user_dashboard.png?raw=true)
 
 # Getting Started
 - **Download the Project**: Clone the repository from GitHub to your local system.<br> 
