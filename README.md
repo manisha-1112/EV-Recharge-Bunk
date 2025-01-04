@@ -7,7 +7,7 @@ Backend: Firebase Realtime Database
 # Screenshots
 Home Page
 
-![image alt](https://github.com/manisha-1112/Electric_Vehicle_Recharge_Bunk/blob/main/homepage.png?raw=true)
+![image alt]([https://github.com/manisha-1112/Electric_Vehicle_Recharge_Bunk/blob/main/homepage.png?raw=true](https://github.com/manisha-1112/EV-Recharge-Bunk/blob/main/homepage.png?raw=true))
 
 Admin Dashboard
 
