@@ -12,7 +12,7 @@ Admin Dashboard
 ![image alt](https://github.com/manisha-1112/EV-Recharge-Bunk/blob/main/admin_dashboard.png?raw=true)
 
 User Dashboard
-![image alt](https://github.com/manisha-1112/EV-Recharge-Bunk/blob/main/homepage.png?raw=true)
+![image alt](https://github.com/manisha-1112/EV-Recharge-Bunk/blob/main/user_dashboard.png?raw=true)
 
 
 # Getting Started
