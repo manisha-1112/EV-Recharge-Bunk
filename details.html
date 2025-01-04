@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="details.css">
+    <link rel="stylesheet" href="home.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <div class="ev-details">
+        <header>
+            <h1 class="bunk">Create EV Details</h1>
+            <button onclick="goBack()" class="back-button">
+                &#8592; 
+            </button>
+        </header>
+        <div class="form" id="form">
+            <form action="">
+                <label for="bunk-location">Bunk location</label>
+                <input type="text" name="bunk-location" id="bunk-location">
+                
+                <label for="bunk-area">Bunk Area</label>
+                <input type="text" name="bunk-area" id="bunk-area">
+
+                <label for="NoofSlots">No of slots</label>
+                <input type="number" name="NoofSlots" id="NoofSlots">
+
+                <label for="phoneno">Mobile</label>
+                <input type="number" name="phoneno" id="phoneno">
+
+                <label for="slot-capacity">Slots Capacity</label>
+                <input type="number" name="slot-capacity" id="slot-capacity">
+
+                <label for="min-charge-time">Min charge time</label>
+                <input type="text" name="min-charge-time" id="min-charge-time">
+
+                <button type="submit" onclick="addFormData()">Add Bunk</button>
+            </form>
+        </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/9.21.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.21.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.21.0/firebase-database-compat.js"></script>
+    <script src="main.js"></script>
+    <script>
+        // function to navigate back to the admin dashboard
+        function goBack() {
+            window.location.href = 'Admin_Dashboard.html';
+        }
+    </script>
+</body>
+</html>

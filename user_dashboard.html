@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
+    <link rel="stylesheet" href="user_dashboard.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h2>User Dashboard</h2>
+            <a href="#" class="active" onclick="logAction('Search Nearby EV Bunk')">Search Nearby EV Bunk</a>
+            <a href="#details" onclick="logAction('View Bunk Details')">View Bunk Details</a>
+            <a href="home.html">Logout</a>
+        </div>
+        <div class="main-content">
+            <h1>Search Nearby EV Bunk</h1>
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Enter location">
+                <button onclick="searchBunks()">Search</button>
+            </div>
+            <div id="map"></div>
+          <section id="details">
+            <h1>Bunk Details</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Address</th>
+                        <th>Mobile</th>
+                        <th>Google Map Link</th>
+                        <th>Available Slots</th>
+                        <th>Book Slot</th>
+                    </tr>
+                </thead>
+                <tbody id="bunk-details">
+                </tbody>
+            </table>
+        </section>
+        </div>
+    </div>
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app.js" type="module"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-database.js" type="module"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-auth.js" type="module"></script>
+    <script type="module" src="sdk.js"></script>
+    <script type="module" src="user_dashboard.js"></script>
+</body>
+</html>

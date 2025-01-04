@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; 
+    background-color: #f8f9fa; 
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1f2833;
+    padding: 1rem 2rem;
+    color: white;
+}
+  
+.container {
+    font-size: 1rem;
+    font-weight: bold;
+}
+  
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 0.8rem;
+    margin: 0;
+}
+  
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+  
+nav .active {
+    background-color: #6ff5e8;
+    color: #000000; 
+}
+
+nav a:hover {
+    background-color: #8ef5f5;
+    color: #1d2d2d; /* Subtle hover effect */
+}
+.charge {
+    background: url('https://resources.news.e.abb.com/images/2022/9/13/0/ABB_expands_US_manufacturing_footprint_with_investment_in_new_EV_charger_facility_2.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(29, 22, 48);
+    text-align: center;
+}
+  
+.charge-text h1 {
+    font-size: 4rem; 
+    color: #FFFFFF; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.charge-text p {
+    font-size: 1.5rem; 
+    color: #E0E0E0; 
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); 
+    margin-bottom: 2rem;
+    line-height: 1.6; 
+}
+
+footer {
+    background-color: #1f2833; 
+    color: #ffffff; 
+    padding: 40px 10%; 
+    text-align: center; 
+}
+
+footer .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 30px; 
+}
+
+footer h2, footer h3 {
+    font-size: 24px; 
+    color: #66fcf1; 
+    margin-bottom: 10px;
+}
+
+footer p, footer a {
+    font-size: 16px; 
+    color: #dcdcdc; 
+    line-height: 1.6; 
+    max-width: 600px;
+}
+
+footer a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #66fcf1; 
+}
+
+footer .contact-column {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    gap: 50px; 
+    width: 100%; 
+    max-width: 900px; 
+    text-align: center; 
+}
+
+footer .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+footer .contact-info, 
+footer .social-media, 
+footer .address-info {
+    text-align: center; 
+    max-width: 500px; 
+}
+.social-media a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #cccccc;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.social-media a i {
+    margin-right: 8px; 
+    font-size: 18px; 
+}
+
+.social-media a:hover {
+    color: #fcfccd; 
+}
+footer .newsletter {
+    margin-top: 20px;
+}
+
+footer .newsletter input[type="email"] {
+    padding: 10px;
+    width: 70%;
+    max-width: 400px; 
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+footer .newsletter button {
+    padding: 10px 20px;
+    background-color: #66fcf1;
+    color: #1f2833;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+footer .newsletter button:hover {
+    background-color: #ffffff;
+    color: #1f2833;
+}
+footer .footer-bottom {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #999999; 
+    border-top: 1.5px solid #333333;
+}
+

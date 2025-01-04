@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Admin_register_page_css.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+</head>
+<body>
+    <div class="register">
+        <div class="form">
+			<h2>Admin Register</h2>
+            <div id="register_info">
+				<label for="name1">Name</label>
+                <input type="text" name="name" id="name1" autocomplete="name">
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" autocomplete="email">
+
+                <label for="mobile">Mobile</label>
+                <input type="number" name="mobile" id="mobile" autocomplete="tel">
+
+                <label for="address">Address</label>
+                <textarea name="address" id="address" rows="3" autocomplete="street-address"></textarea>
+
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username" autocomplete="username">
+
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" autocomplete="new-password">
+
+				<button type="submit" id="submit-btn" onclick="register()">Register</button>
+			</div>
+			<p>Already have an account? <a href="Admin_login_page.html">Login Here</a></p>
+        </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/9.21.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.21.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.21.0/firebase-database-compat.js"></script>
+	<script src="main.js"></script>	
+</body>
+</html>

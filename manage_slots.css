@@ -1,0 +1,89 @@
+body header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background: #29384a;
+    color: white;
+    padding: 15px 20px;
+}
+
+.back-button {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.back-button:hover {
+    color: #bbb;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px; 
+    text-align: center;
+    flex: 1;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+table th {
+    background: #3781b2;
+    color: white;
+}
+
+.form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.form h2 {
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.form input, .form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.form button {
+    background: #3781b2;
+    color: white;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background: #5b788b;
+}

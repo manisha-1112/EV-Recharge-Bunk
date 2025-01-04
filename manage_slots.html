@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="manage_bunk.css">
+    <link rel="stylesheet" href="home.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Bunk Details</title>
+</head>
+<body>
+    <div class="manage-bunk">
+        <header>
+            <h1 class="bunk">Manage Recharge Slots</h1>
+            <button onclick="goBack()" class="back-button">
+                &#8592; 
+            </button>
+        </header>
+        <div class="form">
+            <table>
+                <thead>
+                  <tr>
+                    <th>Location</th>
+                    <th>Area</th>
+                    <th>No of Slots</th>
+                    <th>Mobile</th>
+                    <th>Slots Capacity</th>
+                    <th>Min Charge Time</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody id="bunk-table-body">
+                </tbody>
+              </table>
+        </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/9.21.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.21.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.21.0/firebase-database-compat.js"></script>
+    <script>
+        // function to navigate back to the admin dashboard
+        function goBack() {
+            window.location.href = 'Admin_Dashboard.html';
+        }
+    </script>
+    <script src="manage_slots.js"></script>
+</body>
+</html>
