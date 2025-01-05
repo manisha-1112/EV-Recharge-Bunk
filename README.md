@@ -18,7 +18,25 @@ User Dashboard
 # Getting Started
 - **Download the Project**: Clone the repository from GitHub to your local system.<br> 
 - **Install Dependencies**: Set up any required libraries or packages.<br>
-- **Configure the Environment**: Add necessary settings like API keys and database connections.<br>  
+- **Configure the Environment**: Add necessary settings like API keys and database connections.<br>
+- **Security Rules:The following security rules are defined in database.rules.json to manage read and write access**:
+``` bash
+  {
+  "rules": {
+    "Login_users": {
+      "$uid": {
+        ".read": "auth != null && auth.uid == $uid",
+        ".write": "auth != null && auth.uid == $uid"
+      }
+    },
+    "bunks": {
+      ".indexOn": ["area", "slots"],
+      ".read": true,
+      ".write": true
+    }
+  }
+}
+```
 - **Run the Application**: Start the app in your local development environment.  
 # Key Features
 - **Secure User and Admin Access**: Implement separate registration and login systems for users and admins with secure authentication.<br>
