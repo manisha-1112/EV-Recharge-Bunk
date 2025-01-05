@@ -22,7 +22,7 @@ User Dashboard
 - **Download the Project**: Clone the repository from GitHub to your local system.<br> 
 - **Install Dependencies**: Set up any required libraries or packages.<br>
 - **Configure the Environment**: Add necessary settings like API keys and database connections.<br>
-- **Security Rules:The following security rules are defined in database.rules.json to manage read and write access**:
+- **Security Rules**:The following security rules are defined in database.rules.json to manage read and write access:
 ``` bash
   {
   "rules": {
