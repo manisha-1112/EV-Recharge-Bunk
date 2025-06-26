@@ -1,5 +1,5 @@
 # EV-Recharge-Bunk
-Welcome to the Electric Vehicle Recharge Bunk project! This innovative web-based application is designed to simplify the process of locating and reserving electric vehicle charging slots. By offering a seamless and user-friendly platform, it enables EV owners to effortlessly find available charging stations at various locations and book their slots in advance. With a focus on convenience, reliability, and sustainability, this project aims to contribute to the growing adoption of electric vehicles by addressing one of the key challenges faced by EV users—access to efficient and well-organized charging infrastructure.
+Welcome to the Electric Vehicle Recharge Bunk project! This innovative web-based application is designed to simplify the process of locating and reserving electric vehicle charging slots. By offering a seamless and user-friendly platform, it enables EV owners to effortlessly find available charging stations at various locations and book their slots in advance. With a focus on convenience, reliability, and sustainability, this project aims to contribute to the growing adoption of electric vehicles by addressing one of the key challenges faced by EV users access to efficient and well-organized charging infrastructure.
 
 # Technologies Used
 Frontend: HTML, CSS, JavaScript<br>
